@@ -1,0 +1,42 @@
+.Header {
+  display: flex;
+  
+}
+.Header-checkout {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  width: 30px;
+  margin: 0 0 0 0.5em;
+}
+.Header-alert {
+  color: #1a721f;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.Header-title h1 {
+  text-decoration: none;
+  color: #11d583;
+  font-size: 12px;
+  margin-right: 5px;  
+  padding: 10px;
+}
+
+
+.Header-title h1 :hover{
+  text-decoration: none;
+  color: #1c5841;
+  margin-right: 5px;
+  font-size: 17px;
+  border-right-color: black;
+  border-right-width: 1px;
+  padding: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #1b1b1b;
+  margin-right: 5px;
+  font-size: 10px;
+}

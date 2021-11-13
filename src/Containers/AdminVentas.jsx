@@ -3,7 +3,7 @@ import React from 'react'
 const AdminVentas = () => {
     return (
         <div>
-            Módulo Admininistración Ventas
+            <h1>Módulo Admininistración Ventas</h1>
         </div>
     )
 }

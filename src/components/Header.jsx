@@ -1,21 +1,26 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import '../styles/Header.css'
+import { Navbar, Nav, Container } from "react-bootstrap";
+
+
 const Header = () => {
     return (
-        <div className='Header'>
+        
+                <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+                     
+                <Container>
+                    <Navbar.Brand href="/">Habilishoes</Navbar.Brand>
+                    <Nav className="me-auto">
+                    <Nav.Link href="/productos">Productos</Nav.Link>
+                    <Nav.Link href="/ventas">Gestión de ventas</Nav.Link>
+                    <Nav.Link href="/usuarios">Gestión de usuarios</Nav.Link>
+                    </Nav>
+                </Container>
+                                    
+                     
+                </Navbar>           
+                
             
-                <Link to="/"><h1 className='Header-title'>Ingreso</h1></Link>
-            
-            
-                <Link to="/productos"><h1 className='Header-title'>Productos</h1></Link>
-            
-            
-                <Link to="/ventas"><h1 className='Header-title'>Gestión de ventas</h1></Link>
-                   
-                <Link to="/usuarios"><h1 className='Header-title'>Gestión de usuarios</h1></Link>
-            
-        </div>
+        
     )
 }
 

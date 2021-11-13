@@ -6,6 +6,7 @@ import NotFounded from './components/NotFounded';
 import AdminVentas from './Containers/AdminVentas';
 import GestionUsuarios from './Containers/GestionUsuarios';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { hot } from 'react-hot-loader/root';
 
 
 function App() {
@@ -28,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default hot(App);
